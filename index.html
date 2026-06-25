@@ -28,23 +28,28 @@
       <nav
         class="position-fixed top-60 start-60 vh-100 p-3"
         style="width: 600px"
+        id="navbar-portfolio"
       >
         <h1>Tika Lubis</h1>
         <h2>Front-end Developer</h2>
         <p>Turning ideas into responsive and accessible web experiences.</p>
         <ul class="nav flex-column pt-4">
           <li class="nav-item">
-            <a href="#about">About</a>
+            <a class="nav-link" href="#about">About</a>
           </li>
           <li class="nav-item">
-            <a href="#projects">Projects</a>
+            <a class="nav-link" href="#projects">Projects</a>
           </li>
           <li class="nav-item">
-            <a href="#">Contact</a>
+            <a class="nav-link" href="#">Contact</a>
           </li>
         </ul>
       </nav>
-      <main style="margin-left: 600px">
+      <main
+        style="margin-left: 600px"
+        data-bs-spy="scroll"
+        data-bs-target="#navbar-portfolio"
+      >
         <div id="about" class="section">
           <p>
             I'm a Front-End Developer with a background in law, digital
