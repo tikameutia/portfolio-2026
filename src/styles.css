@@ -27,6 +27,18 @@ ul {
   font-size: 20px;
 }
 
+a {
+  color: var(--color-text-light);
+  letter-spacing: 2px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+a:hover {
+  color: var(--color-accent);
+  cursor: pointer;
+}
+
 .container {
   margin: 90px;
 }
