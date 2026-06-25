@@ -20,6 +20,7 @@ h1 {
   font-size: 90px;
 }
 
+h4,
 p,
 ul {
   font-family: "VT323", monospace;
@@ -39,6 +40,11 @@ a:hover,
 .nav-link:hover {
   color: var(--color-accent);
   cursor: pointer;
+}
+
+.badge {
+  color: var(--color-accent);
+  font-family: "VT323", monospace;
 }
 
 .container {
