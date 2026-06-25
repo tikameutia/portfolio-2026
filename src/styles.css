@@ -16,7 +16,17 @@ h3 {
   color: var(--color-text-light);
 }
 
-p {
+h1 {
+  font-size: 90px;
+}
+
+p,
+ul {
   font-family: "VT323", monospace;
   color: var(--color-text);
+  font-size: 20px;
+}
+
+.container {
+  margin: 90px;
 }
