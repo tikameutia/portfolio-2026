@@ -1,3 +1,22 @@
-h1 {
+:root {
+  --color-background: #1a2639;
+  --color-text: #5d697a;
+  --color-text-light: #d9dad7;
+  --color-accent: #c24d2c;
+}
+
+body {
+  background-color: var(--color-background);
+}
+
+h1,
+h2,
+h3 {
   font-family: "Crimson Pro", serif;
+  color: var(--color-text-light);
+}
+
+p {
+  font-family: "VT323", monospace;
+  color: var(--color-text);
 }
