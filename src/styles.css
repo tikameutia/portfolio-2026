@@ -42,3 +42,7 @@ a:hover {
 .container {
   margin: 90px;
 }
+
+.section {
+  padding: 40px 0;
+}
