@@ -89,3 +89,7 @@ a:hover,
 .highlight {
   color: var(--color-text-light);
 }
+
+.tools-used {
+  color: var(--color-accent);
+}
