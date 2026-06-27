@@ -12,7 +12,7 @@ body {
 h1,
 h2,
 h3 {
-  font-family: "Crimson Pro", serif;
+  font-family: "Fraunces", serif;
   color: var(--color-text-light);
 }
 
@@ -23,13 +23,12 @@ h1 {
 h4,
 p,
 ul {
-  font-family: "VT323", monospace;
+  font-family: "Sora", sans-serif;
   color: var(--color-text);
-  font-size: 20px;
 }
 
 footer {
-  font-family: "VT323", monospace;
+  font-family: "Sora", sans-serif;
   color: var(--color-text);
 }
 
@@ -94,6 +93,8 @@ a:hover,
   background: rgb(194, 77, 4, 0.1);
   border-radius: 18px;
   color: var(--color-accent);
+  font-size: 12px;
+  font-family: monospace;
   padding-inline: 10px;
   margin-right: 8px;
   text-wrap: wrap;
