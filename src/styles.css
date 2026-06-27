@@ -96,4 +96,5 @@ a:hover,
   color: var(--color-accent);
   padding-inline: 10px;
   margin-right: 8px;
+  text-wrap: wrap;
 }
