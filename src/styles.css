@@ -48,7 +48,6 @@ a .nav-link {
   color: var(--color-text);
   letter-spacing: 2px;
   text-decoration: none;
-  text-transform: uppercase;
 }
 
 a:visited {
@@ -103,5 +102,4 @@ a:hover,
   font-family: monospace;
   padding-inline: 10px;
   margin-right: 8px;
-  text-wrap: wrap;
 }
