@@ -90,6 +90,10 @@ a:hover,
   color: var(--color-text-light);
 }
 
-.tools-used {
+.technologies {
+  background: rgb(194, 77, 4, 0.1);
+  border-radius: 18px;
   color: var(--color-accent);
+  padding-inline: 10px;
+  margin-right: 8px;
 }
