@@ -1,8 +1,9 @@
 :root {
-  --color-background: #1a2639;
-  --color-text: #5d697a;
-  --color-text-light: #d9dad7;
-  --color-accent: #c24d2c;
+  --color-background: #f4f1e8;
+  --color-surface: #e8e2d0;
+  --color-text: #2d3a1f;
+  --color-accent: #b8a678;
+  --color-highlight: #8a9382;
 }
 
 body {
@@ -13,7 +14,7 @@ h1,
 h2,
 h3 {
   font-family: "Fraunces", serif;
-  color: var(--color-text-light);
+  color: var(--color-text);
 }
 
 h1 {
@@ -44,14 +45,14 @@ ul {
 }
 
 a .nav-link {
-  color: var(--color-text-light);
+  color: var(--color-text);
   letter-spacing: 2px;
   text-decoration: none;
   text-transform: uppercase;
 }
 
 a:visited {
-  color: var(--color-text-light);
+  color: var(--color-text);
 }
 
 a:hover,
@@ -87,11 +88,11 @@ a:hover,
 }
 
 .card:hover {
-  background: #18212d;
+  background: var(--color-surface);
 }
 
 .highlight {
-  color: var(--color-text-light);
+  color: var(--color-highlight);
 }
 
 .technologies {
