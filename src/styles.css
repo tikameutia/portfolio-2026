@@ -27,7 +27,12 @@ ul {
   color: var(--color-text);
 }
 
+p {
+  line-height: 1.8;
+}
+
 footer {
+  font-size: 12px;
   font-family: "Sora", sans-serif;
   color: var(--color-text);
 }
