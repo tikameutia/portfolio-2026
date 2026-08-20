@@ -18,7 +18,7 @@ h3 {
 }
 
 h1 {
-  font-size: 90px;
+  font-size: 72px;
 }
 
 h4,
@@ -43,14 +43,9 @@ ul {
   margin: 0;
   padding: 0;
 }
-
-a {
-  text-decoration: none;
-}
-
+a,
 a .nav-link {
   color: var(--color-text);
-  letter-spacing: 2px;
   text-decoration: none;
 }
 
